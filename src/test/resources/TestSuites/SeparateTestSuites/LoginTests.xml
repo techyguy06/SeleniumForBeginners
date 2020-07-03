@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="LoginPageTestsSuite" verbose="1" parallel="tests" thread-count="3">
+
+	<test name="PositiveLoginTests">
+		<parameter name="browser" value="patani" />
+		<groups>
+			<run>
+				<include name="positiveTests"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.LoginPageTests" />
+		</classes>
+	</test>
+
+	<test name="NegativeLogInTest">
+		<parameter name="username" value="tomsmith" />
+		<parameter name="password" value="" />
+		<parameter name="expectedMessage" value="Your password is invalid!" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.LoginPageTests">
+				<methods>
+					<include name="negativeLoginTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginPageTestsSuite" duration-ms="21385" started-at="2020-06-15T14:29:21Z" finished-at="2020-06-15T14:29:42Z">
+    <groups>
+      <group name="positiveTests">
+        <method signature="LoginPageTests.positiveLoginTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@5906ebcb]" name="positiveLoginTest" class="com.herokuapp.theinternet.loginpagetests.LoginPageTests"/>
+      </group> <!-- positiveTests -->
+      <group name="smokeTests">
+        <method signature="LoginPageTests.positiveLoginTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@5906ebcb]" name="positiveLoginTest" class="com.herokuapp.theinternet.loginpagetests.LoginPageTests"/>
+        <method signature="LoginPageTests.negativeLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@78047b92]" name="negativeLoginTest" class="com.herokuapp.theinternet.loginpagetests.LoginPageTests"/>
+      </group> <!-- smokeTests -->
+      <group name="negativeTests">
+        <method signature="LoginPageTests.negativeLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@78047b92]" name="negativeLoginTest" class="com.herokuapp.theinternet.loginpagetests.LoginPageTests"/>
+      </group> <!-- negativeTests -->
+    </groups>
+    <test name="NegativeLogInTest" duration-ms="21200" started-at="2020-06-15T14:29:21Z" finished-at="2020-06-15T14:29:42Z">
+      <class name="com.herokuapp.theinternet.loginpagetests.LoginPageTests">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@78047b92]" name="setUp" is-config="true" duration-ms="12785" started-at="2020-06-15T14:29:21Z" finished-at="2020-06-15T14:29:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.loginpagetests.LoginPageTests.negativeLoginTest(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@45018215]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@78047b92]" name="negativeLoginTest" duration-ms="5968" started-at="2020-06-15T14:29:34Z" finished-at="2020-06-15T14:29:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@78047b92]" name="tearDown" is-config="true" duration-ms="2105" started-at="2020-06-15T14:29:40Z" finished-at="2020-06-15T14:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetests.LoginPageTests -->
+    </test> <!-- NegativeLogInTest -->
+    <test name="PositiveLoginTests" duration-ms="21385" started-at="2020-06-15T14:29:21Z" finished-at="2020-06-15T14:29:42Z">
+      <class name="com.herokuapp.theinternet.loginpagetests.LoginPageTests">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@5906ebcb]" name="setUp" is-config="true" duration-ms="13237" started-at="2020-06-15T14:29:21Z" finished-at="2020-06-15T14:29:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.loginpagetests.LoginPageTests.positiveLoginTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@65d6b83b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:1, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@5906ebcb]" name="positiveLoginTest" duration-ms="5911" started-at="2020-06-15T14:29:34Z" finished-at="2020-06-15T14:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.loginpagetests.LoginPageTests@5906ebcb]" name="tearDown" is-config="true" duration-ms="2043" started-at="2020-06-15T14:29:40Z" finished-at="2020-06-15T14:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.loginpagetests.LoginPageTests -->
+    </test> <!-- PositiveLoginTests -->
+  </suite> <!-- LoginPageTestsSuite -->
+</testng-results>

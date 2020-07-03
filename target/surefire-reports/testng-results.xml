@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTests" duration-ms="46028" started-at="2020-06-04T11:33:18Z" finished-at="2020-06-04T11:34:04Z">
+    <groups>
+    </groups>
+    <test name="PositiveTests" duration-ms="15882" started-at="2020-06-04T11:33:18Z" finished-at="2020-06-04T11:33:34Z">
+      <class name="com.herokuapp.theinternet.PositiveTests">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.herokuapp.theinternet.PositiveTests@1e9e725a]" name="loginTest" duration-ms="15865" started-at="2020-06-04T11:33:18Z" finished-at="2020-06-04T11:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.herokuapp.theinternet.PositiveTests -->
+    </test> <!-- PositiveTests -->
+    <test name="NegativeTests" duration-ms="30075" started-at="2020-06-04T11:33:34Z" finished-at="2020-06-04T11:34:04Z">
+      <class name="com.herokuapp.theinternet.NegativeTests">
+        <test-method status="PASS" signature="incorrectPassword()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@58134517]" name="incorrectPassword" duration-ms="14043" started-at="2020-06-04T11:33:34Z" finished-at="2020-06-04T11:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPassword -->
+        <test-method status="PASS" signature="incorrectUsername()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@58134517]" name="incorrectUsername" duration-ms="16032" started-at="2020-06-04T11:33:48Z" finished-at="2020-06-04T11:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsername -->
+      </class> <!-- com.herokuapp.theinternet.NegativeTests -->
+    </test> <!-- NegativeTests -->
+  </suite> <!-- AllTests -->
+</testng-results>
